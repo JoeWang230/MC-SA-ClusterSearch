@@ -4,7 +4,7 @@ seed             15786
 #app_style        diffusionnull linear hop tol 0.01
 #app_style        diffCEnull file paramsCE
 #app_style        diffCEnullmod file paramsCE
-app_style        MetropolisMC file paramsCE
+app_style        MetropolisMC file paramsCEAlMgSiv16
 #app_style       diffusionnull linear hop tol 0.01
 
 #pair_style      lj/cut 2 1
@@ -66,3 +66,4 @@ print "current temperature is $T"
 next x
 jump in.diffCEAlMgSi runloop
 #run              1.0e0
+
