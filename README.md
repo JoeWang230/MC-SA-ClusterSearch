@@ -1,10 +1,10 @@
-# High-Throughput-Monte-Carlo-Simulated-Annealing-Simulation
-Automated SA-MC Pipeline to Identify Low-Energy Cluster Configurations as a Function of Solute Count
+# MC-SA-ClusterSearch
+Automated MC-SA Pipeline to Identify Low-Energy Cluster Configurations as a Function of Solute Count
 
 ---
 
 ## 🧩 Overview
-This repository provides input decks and automation scripts for performing **Monte Carlo-based Simulated Annealing(MC-SA) simulations** to identify the lowest-energy cluster structures with varying numbers of solute atoms at 0 K.  
+This repository provides input decks and automation scripts for performing **Monte Carlo-based Simulated Annealing (MC-SA) simulations** to identify the lowest-energy cluster structures with varying numbers of solute atoms at 0 K.  
 
 The simulations are carried out using the open-source [**SPPARKS**](https://spparks.github.io/) code (Sandia Parallel PARticle Kinetic Simulator).
 
