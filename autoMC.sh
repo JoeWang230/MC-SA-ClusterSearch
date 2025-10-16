@@ -48,7 +48,7 @@ for n2 in {1..10}; do
     echo "Created $outfile"
     
     # Copy necessary files for SA-MC simulation to current subdirectory
-    cp ./spk_openmpi ./in.diffCEAlMgSi ./paramsCEAlMgSiv32 $dirname
+    cp ./spk_openmpi ./in.diffCE ./paramsCEAlMgSiv16 $dirname
 
     # Run simulation in the current subdirectory
     cd "$dirname"
