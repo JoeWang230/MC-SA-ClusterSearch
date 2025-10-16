@@ -53,7 +53,7 @@ for n2 in {1..10}; do
     # Run simulation in the current subdirectory
     cd "$dirname"
     echo "Running SA-MC in directory: $dirname"
-    mpirun -np 1 ./spk_openmpi < in.diffCEAlMgSi
+    mpirun -np 1 ./spk_openmpi < in.diffCE
     cd - > /dev/null
 
   done
