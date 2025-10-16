@@ -21,6 +21,9 @@ The simulations are carried out using the open-source [SPPARKS](https://spparks.
 - **autoMC.sh**  
   Example Bash script for automating SA-MC runs across different solute concentrations.
 
+- **checkEnergy.sh**  
+  This utility scans simulation subdirectories named n2_*_n3_* (e.g., n2_15_n3_9), locates the total energy of the final structure.
+
 *(Note: the SPPARKS executable `spk_openmpi` is **not included**. Users must download and compile SPPARKS themselves.)*
 
 ---
